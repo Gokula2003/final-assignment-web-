@@ -1,0 +1,747 @@
+
+
+
+
+
+
+
+/* home page */
+.home_page{
+    margin: 0;
+    padding: 0;
+    background-color:#ffffff;
+}
+/* head */
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#12a27f;
+    padding: 10px 20px;
+
+
+}
+/* logo */
+.logo img{
+    height: 200px;
+    width: 200px;
+}
+/* contact information */
+.contact-info{
+    display: flex;
+    align-items: center;
+
+}
+/* hotline */
+.hotline{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.hotline img{
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+}
+/* lab report download */
+.download{
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.appointment-btn{
+    margin: 10px;
+    padding: 10px;
+}
+/* navigation bar */
+.navbar{
+    background-color: rgb(37, 208, 21);
+    padding: 20px 30px;
+    display: flex;
+    justify-content: right;
+
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    
+}
+.navbar li{
+    margin: 0 20px;
+
+}
+
+.navbar ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar ul li a:hover{
+    text-decoration: none;
+    background-color: #ffffff;
+
+}
+/* navigation bar end */
+
+/* slide image */
+.bgImage{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url("pictures/d12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: bgchange 20s linear infinite;
+    margin-top: 0px;
+}
+@keyframes bgchange{
+    0%{
+        background-image: url("pictures/d12.jpg");
+    }
+    20%{
+        background-image: url("pictures/d12.jpg");
+    }
+    25%{
+        background-image: url("pictures/d2.jpg");
+    }
+    45%{
+        background-image: url("pictures/d2.jpg");
+    }
+    50%{
+        background-image: url("pictures/d4.jpg");
+    }
+    70%{
+        background-image: url("pictures/d4.jpg");
+    }
+    75%{
+        background-image: url("pictures/d5.jpg");
+    }
+    100%{
+        background-image: url("pictures/d5.jpg");
+    }
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+/* footer */
+footer {
+    background-color: #22823d;
+    padding: 40px;
+    color: #333;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-column {
+    width: 30%;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+    /* footer column */
+.legal-links a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.legal-links a:hover {
+    text-decoration: underline;
+}
+    /* footer column social media*/
+.social_links{
+    display: flex;
+    border-style: solid;
+    border-radius: 2px;
+    background-color: #49be6b;
+    
+}
+.social_links div{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 15%;
+}
+
+/* sub section */
+
+
+p{
+    font-size: 30px;
+    color: rgb(0, 34, 206);
+    text-align: center;
+    font-weight: bold;
+}
+.founder{
+    background-color: rgb(87, 210, 143);
+    display: flex;
+    border: #000;
+    border-radius: 8px;
+    height: 500px;
+}
+.image_column{
+    margin-right: 0;
+    margin: 10px;
+    padding: 10px;
+
+}
+.detail{
+    margin-right: 15%;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.hospital_staff{
+    background-color: rgb(40, 212, 98);
+    display: flex;
+    border: #000;
+    border-radius: 8px;
+    height: 400px;
+}
+.Why_choose_us{
+    display: flex;
+    background-color: rgb(87, 210, 143);
+    border: #000;
+    border-radius: 8px;
+    height: 400px;
+}
+/* point list starts */
+
+.point_list1{
+    background-color: rgb(144, 135, 36);
+    display: flex;
+    height: 600px;
+
+}
+.point_list{
+    width: 500px;
+    height: 500px;
+}
+h4{
+    font-size: 25px;
+}
+
+
+.services{
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+}
+.services ul li{
+    font-size: 20px;
+}
+h5{
+    font-size: 25px;
+}
+
+.our_facilities{
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+.our_facilities ol li{
+    font-size: 20px;
+}
+/* left corner image */
+.left_image {
+    flex: 0 0 20%; /* Adjust width as needed */
+    padding: 20px;
+}
+.left_image img{
+    margin-left: 75%;
+}
+
+
+/* online service */
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* six columns */
+    grid-gap: 20px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: green;
+}
+
+.category-item {
+    background-color: #ffffff; /* Box color */
+    padding: 50px 0;
+    text-align: center;
+    color: #0e6917;
+    font-size: 18px;
+    border: 1px solid #000;
+    border-radius: 8px; /*curve border*/
+    transition: background-color 0.3s;
+}
+
+.category-item:hover {
+    background-color: #35ab2b;
+}
+
+
+
+
+/* about page */
+/* kurunegala */
+
+
+.ourbranches{
+    background-color: grey;
+}
+
+.Branch_detail p10{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+}
+
+.aboutus{
+    background-color: rgb(237, 255, 39);
+    height: 200px;
+    width: auto;
+}
+.About_page{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Kurunegala branch */
+.Kurunegala{
+    background-color: rgb(103, 180, 107);
+    display: flex;
+    border-radius: 8px; /*curve border*/
+    border: #000;
+}
+.Branch_detail ul{ 
+    font-size: 15px;
+}
+.Branch_detail p3{
+    margin: 20px;
+    padding: 2;
+    text-align: left;
+    font-size: 20px;
+}
+.Branch_image img{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+}
+/* colombo */
+.Colombo{
+    background-color: rgb(164, 105, 171);
+    display: flex;
+    border: #000;
+    border-radius: 8px;
+}
+.Branch_image img{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+}
+.Branch_detail ul{ 
+    font-size: 15px;
+}
+.Branch_detail p3{
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+/* Kandy */
+.Kandy{
+    background-color: rgb(199, 197, 124);
+    display: flex;
+    border: #000;
+    border-radius: 8px;
+}
+.Branch_image img{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+}
+.Branch_detail ul{ 
+    font-size: 15px;
+}
+.Branch_detail p3{
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+
+
+/* table starts */
+.table{
+    border-collapse: collapse;
+    margin-left: 25%;
+    
+}
+table,th,td{
+    border: 2px solid black;
+    background-color: grey;
+}
+th, td{
+    padding: 15px;
+    text-align: left;
+    font-size: 1.1em;
+    background-color: grey;
+}
+td{
+    color: #000000;
+}
+.aboutus-p5{
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*Service page */
+
+.Service_page{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+/* services */
+.category-grid1{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* six columns */
+    grid-gap: 20px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #0e6917;
+}
+
+.category-item1 {
+    background-color: white; /* Box color */
+    padding: 50px 0;
+    text-align: center;
+    color: #000000;
+    font-size: 18px;
+    border: 1px solid #000;
+    border-radius: 8px; /*curve border*/
+    transition: background-color 0.3s;
+}
+
+.category-item1:hover {
+    background-color: #e8ec19;
+}
+
+
+
+
+/* doctors page */
+
+.Doctor_page{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.category-grid2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr); /*4 columns*/
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.category-item2{
+    background-color: #75ad75;
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border: 1px solid #000;
+    border-radius: 8px; /*curve border*/
+    transition: 0.5s;
+}
+.category-item2:hover{
+    background-color: green;
+}
+
+
+
+
+
+
+
+/* consultant and reservation page */
+
+.Consultant_and_Reservation_page{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(251 191 36);
+}
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form-group textarea {
+    resize: vertical;
+}
+.submit-btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.cancel-btn{
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+/* pharmacy page */
+
+.Pharmacy_page{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.medicine{
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-group {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.cancel {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.cancel:hover {
+    background-color: #999;
+}
+.submit{
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+.submit:hover{
+    background-color: green;
+}
+
+
+/* slide image */
+.pharmacy_img{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url("pictures/d12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: bgchange 20s linear infinite;
+    margin-top: 0px;
+    display: flex;
+}
+@keyframes bgchange{
+    0%{
+        background-image: url("pictures/pill5.jpg");
+    }
+    20%{
+        background-image: url("pictures/pill5.jpg");
+    }
+    25%{
+        background-image: url("pictures/pill1.jpg");
+    }
+    45%{
+        background-image: url("pictures/pill1.jpg");
+    }
+    50%{
+        background-image: url("pictures/pill2.jpg");
+    }
+    70%{
+        background-image: url("pictures/pill2.jpg");
+    }
+    75%{
+        background-image: url("pictures/pill4.jpg");
+    }
+    100%{
+        background-image: url("pictures/pill4.jpg");
+    }
+}
+
+.wrapper2{           /*overlay*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
